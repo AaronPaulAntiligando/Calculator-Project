@@ -1,0 +1,19 @@
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My_Calculator.Properties.Resources.resources
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.csproj.GenerateResource.cache
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.AssemblyInfoInputs.cache
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.AssemblyInfo.cs
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.csproj.CoreCompileInputs.cache
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\My Calculator.exe
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\My Calculator.deps.json
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\My Calculator.runtimeconfig.json
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\My Calculator.runtimeconfig.dev.json
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\My Calculator.dll
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\ref\My Calculator.dll
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\bin\Debug\net5.0-windows\My Calculator.pdb
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My_Calculator.Form1.resources
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.dll
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\ref\My Calculator.dll
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.pdb
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.genruntimeconfig.cache
+C:\Users\AaronPaul\source\repos\My Calculator\My Calculator\obj\Debug\net5.0-windows\My Calculator.csproj.AssemblyReference.cache
