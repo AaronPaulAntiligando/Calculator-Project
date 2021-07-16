@@ -28,7 +28,7 @@ namespace My_Calculator
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void one_Click(object sender, EventArgs e)
@@ -76,6 +76,11 @@ namespace My_Calculator
             Output.Text = Output.Text + "9";
         }
 
+        private void zero_Click(object sender, EventArgs e)
+        {
+            Output.Text = Output.Text + "0";
+        }
+
         private void decim_Click(object sender, EventArgs e)
         {
             Output.Text = Output.Text + ".";
@@ -86,12 +91,18 @@ namespace My_Calculator
             Output.Clear();
         }
 
+        private void delete_Click(object sender, EventArgs e)
+        {
+            Output.Text = Output.Text.Remove(Output.Text.Length - 1, 1);
+        }
+
         private void add_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
             operation = b.Text;
             value = Double.Parse(Output.Text);
             operatation_used = true;
+            Output.Clear();
         }
 
         private void minus_Click(object sender, EventArgs e)
@@ -100,6 +111,7 @@ namespace My_Calculator
             operation = b.Text;
             value = Double.Parse(Output.Text);
             operatation_used = true;
+            Output.Clear();
         }
 
         private void multiply_Click(object sender, EventArgs e)
@@ -108,6 +120,7 @@ namespace My_Calculator
             operation = b.Text;
             value = Double.Parse(Output.Text);
             operatation_used = true;
+            Output.Clear();
         }
 
         private void divide_Click(object sender, EventArgs e)
@@ -116,6 +129,7 @@ namespace My_Calculator
             operation = b.Text;
             value = Double.Parse(Output.Text);
             operatation_used = true;
+            Output.Clear();
         }
 
         private void equals_Click_1(object sender, EventArgs e)
@@ -139,5 +153,7 @@ namespace My_Calculator
             }
             operatation_used = false;
         }
+
+        
     }
 }

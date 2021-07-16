@@ -48,7 +48,6 @@ namespace My_Calculator
             this.zero = new System.Windows.Forms.Button();
             this.two = new System.Windows.Forms.Button();
             this.Output = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // delete
@@ -62,6 +61,7 @@ namespace My_Calculator
             this.delete.TabIndex = 0;
             this.delete.Text = "X";
             this.delete.UseVisualStyleBackColor = false;
+            this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
             // clear
             // 
@@ -259,6 +259,7 @@ namespace My_Calculator
             this.zero.TabIndex = 18;
             this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = true;
+            this.zero.Click += new System.EventHandler(this.zero_Click);
             // 
             // two
             // 
@@ -275,23 +276,13 @@ namespace My_Calculator
             // Output
             // 
             this.Output.Font = new System.Drawing.Font("Arial Narrow", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Output.Location = new System.Drawing.Point(12, 45);
+            this.Output.Location = new System.Drawing.Point(12, 12);
+            this.Output.Multiline = true;
             this.Output.Name = "Output";
-            this.Output.Size = new System.Drawing.Size(250, 53);
+            this.Output.Size = new System.Drawing.Size(250, 83);
             this.Output.TabIndex = 20;
             this.Output.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.Output.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Window;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(13, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 37);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "label1";
             // 
             // Form1
             // 
@@ -300,7 +291,6 @@ namespace My_Calculator
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(274, 394);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.Output);
             this.Controls.Add(this.two);
             this.Controls.Add(this.zero);
@@ -352,6 +342,5 @@ namespace My_Calculator
         private System.Windows.Forms.Button zero;
         private System.Windows.Forms.Button two;
         private System.Windows.Forms.TextBox Output;
-        private System.Windows.Forms.Label label1;
     }
 }
